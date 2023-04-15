@@ -1,0 +1,9 @@
+from funcoes import calcular_idade
+
+nome = input("nome: ")
+
+while nome.lower() != "zero" and nome != "0":
+  calcular_idade(nome)
+nome = input("nome: ")
+
+print('fim!')
